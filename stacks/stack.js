@@ -1,4 +1,5 @@
 //TODO test each method
+// I am implementing the methods referenced here - http://www.tutorialspoint.com/java/java_stack_class.htm
 
 function Stack(){
   this.items = new Array();
