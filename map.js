@@ -16,11 +16,13 @@ var numArray = [1,2,3,4];
 
 //Write a callback function that is passed to myMap that will return the given input plus 4.
 var addedArray = myMap(numArray,function(){
+  //WRITE CODE HERE
 
 });
 
 // Write a callback function that is passed to myMap that will return a string like "The Person at index 0 owes $1"
 var dollarArray = myMap(numArray, function(){
+  //WRITE CODE HERE
 
 })
 
