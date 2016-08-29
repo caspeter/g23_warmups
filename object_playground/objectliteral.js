@@ -1,4 +1,4 @@
-//Create an object literal that contains 2 properties. One will be your name and the other will a function that reverses your name and returns the value.
+//Create an object literal that contains 2 properties. One will be your name and the other will be a function that reverses your name and returns the value.
 
 var Person = {
   name:"Teddi",
