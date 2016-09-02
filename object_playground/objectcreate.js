@@ -1,4 +1,5 @@
 //Let's look at what happens when we use Object.create
+
 var Person = {
   name:"Teddi",
   reverse: function(){
@@ -6,7 +7,9 @@ var Person = {
   }
 }
 
-console.log("Object Create", Person);
+console.log("Person:", Person);
+
+//a new object gets created and it gets linked to the Person Object
 var personA = Object.create(Person);
 console.log("before adding a property, personA looks like:",personA);
 console.log("before adding a property, personA.name is:",personA.name);
@@ -14,7 +17,7 @@ console.log("does personA object contain the name key/value pair after it has be
 personA.name = "Sherée";
 console.log("after adding a property, personA looks like:",personA);
 console.log("after adding a property, personA.name is:",personA.name);
-console.log("after adding a property, Person looks like:",Person);
+console.log("after adding a property to personA, Person looks like:",Person);
 
 //what happens if we shadow the reverse method?
 personA.reverse = function(){
