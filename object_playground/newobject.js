@@ -8,6 +8,8 @@ function Person(name){
   }
 }
 
+// Call the Person function as a constructor
+// a new object is created,linked to Person,bound as the this keyword in the Person function call, and 'this' is implicitely returned.
 var person1 = new Person('person1');
 var person2 = new Person('person2');
 
